@@ -1,0 +1,114 @@
+body {
+	background-image: url(image/latar.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header {
+  text-align: center;
+  padding-left: 10px;
+  background-color: MediumSeaGreen;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: Monotype Corsiva;
+}
+
+#right {
+	float: right;
+	padding: 50px;
+	padding-top: 100px;
+}
+
+#right img {
+	border-radius: 50%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: -1;
+  left: 0pc;
+  background-color: MediumSeaGreen;
+  overflow-x: hidden;
+  padding-top: 70px;
+  font-size: 20px;
+}
+
+.sidebar button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.tabcontent {
+  padding-top: 150px;
+  padding-left: 200px;
+  color: darkslategray;
+  display: block;
+  font-family: Georgia;
+}
+
+.sidebar button.active {
+	background-color: LimeGreen;
+	color: white;
+}
+
+.subtitle {
+	text-align: left;
+	font-size: 30px;
+	padding-bottom: 2px;
+}
+
+.content {
+	text-align: justify;
+	font-size: 20px;	
+}
+
+.item{
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  font-size: 20px;
+}
+
+.item img {
+	border-radius: 15px;
+	padding-top: 2px;
+}
+
+.dot1 {
+  height: 15px;
+  width: 15px;
+  background-color: MidnightBlue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.indent{
+	padding-left: 1.8em ;
+}
